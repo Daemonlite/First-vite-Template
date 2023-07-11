@@ -1,14 +1,14 @@
-import products from '../mock';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import products from "../mock";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 
 export default function Products() {
   return (
-    <div className='card'>
+    <div className="card">
       {products.products.map((res) => (
         <Card key={res.productName} sx={{ maxWidth: 345 }}>
           <CardMedia
@@ -21,7 +21,8 @@ export default function Products() {
               {res.productName}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore beatae incidunt quisquam  a.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Inventore beatae incidunt quisquam a.
             </Typography>
           </CardContent>
           <CardActions>
