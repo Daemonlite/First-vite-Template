@@ -169,6 +169,13 @@ const Services = () => {
             alt=""
           />
         </section>
+        <footer>
+         <div className="foot-end">
+         <h1 className="tye">Try Daemonlite for free. No credit card required, no software to install.</h1>
+          <Button variant='contained'>Start Free Trial</Button>
+         </div>
+         <img src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2022/12/php-free-trial-desk.jpg?resize=1536,864" alt="" width='900px'  className="foot-img"/>
+        </footer>
       </div>
     </>
   );
