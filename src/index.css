@@ -231,4 +231,11 @@ margin-top: -10px;
       margin-left: 100px;
       margin-bottom: 20px;
     }
+    .tom{
+      text-align: center;
+    }
+    .landing{
+      margin: auto;
+      width: fit-content;
+    }
 }
