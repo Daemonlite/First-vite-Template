@@ -2,12 +2,18 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .headText{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
   color: #000;
   margin-left: 20px;
   font-size: 22px;
   margin-top: 25px;
 }
+.header{
+  background-image: url('https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/04/php-marqee-ai-data-crm-lg-bg.jpg?resize=1536,480');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .btn{
  margin-left: 75rem;
 margin-top: -10px;
@@ -94,4 +100,18 @@ margin-top: -10px;
 }
 .sec-head{
   color: #555;
+}
+.side{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-left: 50px;
+}
+.title{
+  color: #555;
+}
+.link{
+  text-decoration: underline;
+  cursor: pointer;
 }

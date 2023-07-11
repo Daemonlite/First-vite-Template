@@ -53,7 +53,71 @@ const Services = () => {
         <Side />
         <br />
         <br />
-        <h2 className='tom'>Why You Should consider us</h2>
+
+        <img
+          src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/02/hp-industries-page-break-bg.jpg?resize=1536,183"
+          alt=""
+        />
+        <br />
+        <h2 className="tom">
+          Learn how Daemonlite products help you lower costs and save time.
+        </h2>
+        <aside className="side">
+          <div className="act">
+            <img
+              src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2022/11/php-products-small-business.jpg?resize=1024,1024"
+              alt=""
+              width="300px"
+            />
+            <p className="title">Small Business</p>
+            <p className="text-descr">
+              Sell smarter and provide support faster in a single app.
+            </p>
+            <a className="link">Watch demos</a>
+          </div>
+          <div className="act">
+            <img
+              src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2022/11/php-products-sales.jpg?resize=1024,1024"
+              alt=""
+              width="300px"
+            />
+            <p className="title">Sales</p>
+            <p className="text-descr">
+              Close more deals and speed up growth with the #1 CRM.
+            </p>
+            <a className="link">Watch demos</a>
+          </div>
+          <div className="act">
+            <img
+              src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2022/11/php-products-all-products.jpg?resize=1024,1024"
+              alt=""
+              width="300px"
+            />
+            <p className="title">Services</p>
+            <p className="text-descr">
+              Spend less on scaling service customers love
+            </p>
+            <a className="link">Watch demos</a>
+          </div>
+          <div className="act">
+            <img
+              src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2022/11/php-products-service.jpg?resize=1024,1024"
+              alt=""
+              width="300px"
+            />
+            <p className="title">See all products</p>
+            <p className="text-descr">
+              Discover how our Customer 360 offerings deliver success now.
+            </p>
+            <a className="link">Watch demos</a>
+          </div>
+        </aside>
+        <br />
+        <img
+          src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/01/hp-page-break-img-hills.png?resize=1536,427"
+          alt=""
+        />
+        <h2 className="tom">Why You Should consider us</h2>
         <br />
         <section className="why">
           <div className="all">
@@ -100,8 +164,10 @@ const Services = () => {
               more, nothing less.
             </div>
           </div>
-
-
+          <img
+            src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/02/hp-industries-page-break-bg.jpg?resize=1536,183"
+            alt=""
+          />
         </section>
       </div>
     </>
