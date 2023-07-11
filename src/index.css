@@ -1,0 +1,97 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headText{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  margin-left: 20px;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.btn{
+ margin-left: 75rem;
+margin-top: -10px;
+}
+.btns{
+  display: flex;
+  gap: 20px;
+}
+.landing{
+  margin-top: 10px;
+  display: flex;
+  justify-content:center ;
+  flex-direction: row;
+  margin-left: 70px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.tom{
+  text-align: center;
+}
+.land{
+  width:520px;
+}
+.land-descr{
+  width: 500px;
+}
+.land-Text{
+  margin-top: 50px;
+  font-size:large;
+}
+.land-img{
+  width: 590px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.butt{
+  width: 150px;
+}
+.serv{
+  text-align: center;
+  margin-top: 50px;
+}
+.services{
+  text-align: center;
+  margin-top: 50px;
+  display:flex ;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.body-images{
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+
+}
+.pa{
+  font-size: 13px;
+}
+.pr{
+  font-size: 1.1rem;
+  width: 75%;
+}
+.nope{
+  display: none;
+}
+.sec-Text{
+  color: blue;
+  text-align: center;
+}
+.sec-img{
+  width: 50px;
+}
+.sec-body{
+  width: 400px;
+}
+.why{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 50px;
+}
+.sec-head{
+  color: #555;
+}
