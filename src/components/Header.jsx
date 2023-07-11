@@ -36,18 +36,7 @@ const navigate = useNavigate()
     <nav>
     <header>
 
-  <span className="menu-button">
-    <span className="bar"></span>
-    <span className="bar"></span>
-    <span className="bar"></span>
-  </span>
-  <nav className="menu">
- 
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </nav>
+
 </header>
       </nav></>
   );
