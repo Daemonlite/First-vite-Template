@@ -223,7 +223,7 @@ margin-top: -10px;
     .body-images{
       flex-wrap: wrap;
       justify-content: center;
-      margin: 20px;
+      margin: 40px;
     }
     .foot-img{
       width: 100%;
@@ -250,4 +250,13 @@ margin-top: -10px;
     .img-1{
       width: fit-content;
     }
+}
+
+
+@media (max-width: 400px) {
+  .body-images{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -20px;
+  }
 }
