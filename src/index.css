@@ -125,3 +125,14 @@ margin-top: -10px;
 .foot-img{
   margin-left: 200px;
 }
+.card{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.text{
+  margin-left: 500px;
+  
+}

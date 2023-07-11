@@ -27,8 +27,8 @@ const navigate = useNavigate()
         aria-label="scrollable force tabs example"
       >
         <Tab label="Services" onClick={()=> navigate('/')} />
-        <Tab label="Products" />
-        <Tab label="Blog" />
+        <Tab label="Products" onClick={()=> navigate('/products')}/>
+        <Tab label="Blog" onClick={()=> navigate('/blog')}/>
       </Tabs>
     </Box>
    
