@@ -259,4 +259,10 @@ margin-top: -10px;
     justify-content: center;
     margin: -20px;
   }
+  .tye{
+    margin-left: 7px;
+  }
+  .pa,.pr{
+    margin-left: 5px;
+  }
 }
