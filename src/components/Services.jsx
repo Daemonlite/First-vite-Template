@@ -57,6 +57,7 @@ const Services = () => {
         <img
           src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/02/hp-industries-page-break-bg.jpg?resize=1536,183"
           alt=""
+          className="aesthetic"
         />
         <br />
         <h2 className="tom">
@@ -116,6 +117,7 @@ const Services = () => {
         <img
           src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/01/hp-page-break-img-hills.png?resize=1536,427"
           alt=""
+          className="aesthetic"
         />
         <h2 className="tom">Why You Should consider us</h2>
         <br />
@@ -167,6 +169,7 @@ const Services = () => {
           <img
             src="https://wp.salesforce.com/en-us/wp-content/uploads/sites/4/2023/02/hp-industries-page-break-bg.jpg?resize=1536,183"
             alt=""
+            className="aesthetic"
           />
         </section>
         <footer>

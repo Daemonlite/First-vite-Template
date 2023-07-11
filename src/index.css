@@ -2,7 +2,6 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .headText{
- 
   color: #000;
   margin-left: 20px;
   font-size: 22px;
@@ -135,4 +134,98 @@ margin-top: -10px;
 .text{
   margin-left: 500px;
   
+}
+.menu-button {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+.menu {
+  display: none;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+
+    .menu {
+      display:none;
+     float: right;
+
+    }
+
+  
+    .menu-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 999;
+      display: block;
+    }
+    .menu-button:hover{
+      display: block;
+    }
+  
+    .menu a {
+      font-size: 18px;
+    }
+    
+    .land-Text{
+     text-align: center;
+      font-size: 12px;
+      margin-top: 25px;
+    
+    }
+    .land-descr{
+      width: 100%;
+    }
+    .land-descr{
+      text-align: center;
+    }
+    .btns{
+      flex-direction: column;
+      justify-content: center;
+     
+    }
+    .land{
+      width: fit-content;
+    }
+    .butt{
+      width: 100%;
+    }
+    .land-img{
+      width: 80%;
+    }
+    .aesthetic{
+      width: 100%;
+    }
+    .side ,.body-images{
+      flex-direction: column;
+    }
+    .foot-img{
+      width: 100%;
+      margin-left: 20px;
+      
+    }
+    .tye{
+      width: 300px;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+    }
 }
