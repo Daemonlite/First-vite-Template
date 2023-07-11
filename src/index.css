@@ -186,7 +186,7 @@ margin-top: -10px;
     
     .land-Text{
      text-align: center;
-      font-size: 12px;
+      font-size: 16px;
       margin-top: 25px;
     
     }
@@ -202,7 +202,8 @@ margin-top: -10px;
      
     }
     .land{
-      width: fit-content;
+      width: 100%;
+      font-size: large;
     }
     .butt{
       width: 100%;
@@ -212,9 +213,11 @@ margin-top: -10px;
     }
     .aesthetic{
       width: 100%;
+      display: none;
     }
     .side ,.body-images{
-      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .foot-img{
       width: 100%;
