@@ -14,9 +14,7 @@ const Services = () => {
               We offer a wide range of web services to help you establish and
               grow your online presence. Whether you&apos;re a small business
               owner, an entrepreneur, or just starting out on your online
-              journey, we&apos;ve got you covered. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Eum nobis, reprehenderit sequi quas
-              debitis,
+              journey, we&apos;ve got you covered.
             </p>
             <div className="btns">
               <Button
