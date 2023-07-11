@@ -5,6 +5,7 @@ const Side = () => {
     <div>
     
         <h2 className='tom'>Some Of The Services We Offer</h2>
+<br />
 
 <div className="body-images">
 <div className="img-1">

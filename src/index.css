@@ -135,10 +135,16 @@ margin-top: -10px;
   margin-left: 500px;
   
 }
+.navbar{
+  display: none!important;
+}
 
 @media (max-width: 600px) {
 
-
+.navbar{
+  display: block !important;
+}
+.header{display: none;}
     
     .land-Text{
      text-align: center;
