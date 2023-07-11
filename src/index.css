@@ -238,4 +238,7 @@ margin-top: -10px;
       margin: auto;
       width: fit-content;
     }
+    .headText{
+      margin-left: 2px;
+    }
 }
