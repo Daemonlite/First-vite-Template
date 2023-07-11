@@ -241,4 +241,7 @@ margin-top: -10px;
     .headText{
       margin-left: 2px;
     }
+    .img-1{
+      width: fit-content;
+    }
 }
