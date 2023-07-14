@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
 
 export default function Products() {
   return (
-    <div className="card">
+    <div className="cards">
       {products.products.map((res) => (
         <Card key={res.productName} sx={{ maxWidth: 345 }}>
           <CardMedia

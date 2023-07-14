@@ -124,7 +124,7 @@ margin-top: -10px;
 .foot-img{
   margin-left: 200px;
 }
-.card{
+.cards{
   display: flex;
   justify-content: center;
   gap: 20px;
