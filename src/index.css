@@ -1,5 +1,6 @@
 *{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 .headText{
   color: #000;
@@ -143,6 +144,7 @@ margin-top: -10px;
 
 .navbar{
   display: block !important;
+ 
 }
 .header{display: none;}
     
