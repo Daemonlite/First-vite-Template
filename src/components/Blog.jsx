@@ -16,7 +16,7 @@ const Blog = () => {
   useEffect(() => {
     axios
       .get(
-        `https://newsapi.org/v2/everything?q=tesla&from=2023-06-11&sortBy=publishedAt&apiKey=${apiKey}`
+        `https://newsapi.org/v2/everything?q=tesla&from=2023-07-01&sortBy=publishedAt&apiKey=${apiKey}`
       )
       .then((response) => {
         console.log(response.data);
